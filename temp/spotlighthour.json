@@ -1,0 +1,63 @@
+[
+  {
+    "eventID": "pokemonspotlighthour2025-07-08",
+    "name": "Voltorb and Hisuian Voltorb Spotlight Hour",
+    "start": "2025-07-08T18:00:00.000",
+    "end": "2025-07-08T19:00:00.000",
+    "bonus": "2× Catch XP",
+    "list": [
+      {
+        "name": "Voltorb",
+        "canBeShiny": true,
+        "image": "pokemon_icon_100_00.png"
+      },
+      {
+        "name": "Hisuian Voltorb",
+        "canBeShiny": true,
+        "image": "pm100.fHISUIAN.icon.png"
+      }
+    ]
+  },
+  {
+    "eventID": "pokemonspotlighthour2025-07-15",
+    "name": "Feebas Spotlight Hour",
+    "start": "2025-07-15T18:00:00.000",
+    "end": "2025-07-15T19:00:00.000",
+    "bonus": "2× Catch Candy",
+    "list": [
+      {
+        "name": "Feebas",
+        "canBeShiny": true,
+        "image": "pokemon_icon_349_00.png"
+      }
+    ]
+  },
+  {
+    "eventID": "pokemonspotlighthour2025-07-22",
+    "name": "Jigglypuff Spotlight Hour",
+    "start": "2025-07-22T18:00:00.000",
+    "end": "2025-07-22T19:00:00.000",
+    "bonus": "2× Transfer Candy",
+    "list": [
+      {
+        "name": "Jigglypuff",
+        "canBeShiny": true,
+        "image": "pokemon_icon_039_00.png"
+      }
+    ]
+  },
+  {
+    "eventID": "pokemonspotlighthour2025-07-29",
+    "name": "Roggenrola Spotlight Hour",
+    "start": "2025-07-29T18:00:00.000",
+    "end": "2025-07-29T19:00:00.000",
+    "bonus": "2× Evolution XP",
+    "list": [
+      {
+        "name": "Roggenrola",
+        "canBeShiny": true,
+        "image": "pokemon_icon_524_00.png"
+      }
+    ]
+  }
+]

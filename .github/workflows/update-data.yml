@@ -29,6 +29,8 @@ jobs:
     - name: Run Script Parse Raids
       run: python parse_raids.py
 
+    - name: Run Script Parse Spotlight Hour
+      run: python parse_spotlight.py
 
     - name: Move JSONs to root
       run: |
@@ -37,15 +39,17 @@ jobs:
     - name: Modify JSONs (dummy edit to ensure diff)
       run: |
         echo "" >> bossraid.json
+        echo "" >> spotlighthour.json
 
     - name: Commit JSON Changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git switch --orphan data
-        git add *.json
+        git add bossraid.json
+        git add spotlighthour.json
         git commit -m "Actualización automática de datos 🤖"
-    
+
     - name: Remove Temp Folder
       run: rm -r temp
 
