@@ -1,0 +1,60 @@
+name: Update Raid JSON
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '*/10 * * * *'  # Cada 10 minutos
+
+jobs:
+  update-raid-data:
+    runs-on: ubuntu-latest
+
+    env:
+      RAIDS_URL: ${{ secrets.RAIDS_URL }}
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install Dependencies
+      run: pip install requests beautifulsoup4
+
+    - name: Run Script: Parse Raids
+      run: python parse_raids.py
+
+    # Aquí agregarías tus otros scripts si quieres
+    # - name: Run Script: otros
+    #   run: python shinyrank.py
+
+    - name: Move JSONs to root
+      run: |
+        mv temp/*.json ./
+
+    - name: Modify JSONs (dummy edit to ensure diff)
+      run: |
+        echo "" >> bossraid.json
+
+    - name: Commit JSON Changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git switch --orphan data
+        git add *.json
+        git commit -m "Actualización automática de datos 🤖"
+    
+    - name: Remove Temp Folder
+      run: rm -r temp
+
+    - name: Push to `data` Branch
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: data
+        force: true
