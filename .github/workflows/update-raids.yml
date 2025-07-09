@@ -13,6 +13,7 @@ jobs:
 
     env:
       RAIDS_URL: ${{ secrets.RAIDS_URL }}
+      EVENTS_URL: ${{ secrets.EVENTS_URL }}
 
     steps:
     - name: Checkout Repository

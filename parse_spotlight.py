@@ -6,8 +6,10 @@ import urllib.request
 temp_folder = "temp"
 os.makedirs(temp_folder, exist_ok=True)
 
-# URL de eventos
-url = "https://raw.githubusercontent.com/GaelVM/DataDuck/refs/heads/data/events.json"
+
+url = os.environ.get("EVENTS_URL")
+if not url:
+    raise ValueError("No se ha definido la variable de entorno EVENTS_URL")
 
 # Descargar y parsear
 response = urllib.request.urlopen(url)
