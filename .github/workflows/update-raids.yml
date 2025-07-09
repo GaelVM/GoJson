@@ -26,12 +26,9 @@ jobs:
     - name: Install Dependencies
       run: pip install requests beautifulsoup4
 
-    - name: Run Script: Parse Raids
+    - name: Run Script Parse Raids
       run: python parse_raids.py
 
-    # Aquí agregarías tus otros scripts si quieres
-    # - name: Run Script: otros
-    #   run: python shinyrank.py
 
     - name: Move JSONs to root
       run: |
