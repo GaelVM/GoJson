@@ -1,0 +1,375 @@
+{
+  "Incursiones 1": [
+    {
+      "name": "Hisuian Growlithe",
+      "canBeShiny": true,
+      "image": "pm58.fHISUIAN.icon.png",
+      "types": [
+        "fire.png",
+        "rock.png"
+      ],
+      "boostedWeather": [
+        "sunny.png",
+        "partlycloudy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 703,
+          "max": 755
+        },
+        "boosted": {
+          "min": 879,
+          "max": 944
+        }
+      }
+    },
+    {
+      "name": "Unown U",
+      "canBeShiny": true,
+      "image": "pm201.fUNOWN_U.icon.png",
+      "types": [
+        "psychic.png"
+      ],
+      "boostedWeather": [
+        "windy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 628,
+          "max": 677
+        },
+        "boosted": {
+          "min": 785,
+          "max": 846
+        }
+      }
+    },
+    {
+      "name": "Hisuian Sneasel",
+      "canBeShiny": true,
+      "image": "pm215.fHISUIAN.icon.png",
+      "types": [
+        "fighting.png",
+        "poison.png"
+      ],
+      "boostedWeather": [
+        "cloudy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1107,
+          "max": 1172
+        },
+        "boosted": {
+          "min": 1384,
+          "max": 1465
+        }
+      }
+    }
+  ],
+  "Incursiones 3": [
+    {
+      "name": "Hisuian Braviary",
+      "canBeShiny": true,
+      "image": "pm628.fHISUIAN.icon.png",
+      "types": [
+        "psychic.png",
+        "flying.png"
+      ],
+      "boostedWeather": [
+        "windy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1531,
+          "max": 1608
+        },
+        "boosted": {
+          "min": 1914,
+          "max": 2010
+        }
+      }
+    },
+    {
+      "name": "Hisuian Avalugg",
+      "canBeShiny": true,
+      "image": "pm713.fHISUIAN.icon.png",
+      "types": [
+        "ice.png",
+        "rock.png"
+      ],
+      "boostedWeather": [
+        "snowy.png",
+        "partlycloudy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1892,
+          "max": 1975
+        },
+        "boosted": {
+          "min": 2365,
+          "max": 2469
+        }
+      }
+    },
+    {
+      "name": "Wyrdeer",
+      "canBeShiny": true,
+      "image": "pm899.icon.png",
+      "types": [
+        "normal.png",
+        "psychic.png"
+      ],
+      "boostedWeather": [
+        "partlycloudy.png",
+        "windy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1486,
+          "max": 1561
+        },
+        "boosted": {
+          "min": 1858,
+          "max": 1952
+        }
+      }
+    },
+    {
+      "name": "Kleavor",
+      "canBeShiny": true,
+      "image": "pm900.icon.png",
+      "types": [
+        "bug.png",
+        "rock.png"
+      ],
+      "boostedWeather": [
+        "rainy.png",
+        "partlycloudy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1717,
+          "max": 1798
+        },
+        "boosted": {
+          "min": 2147,
+          "max": 2247
+        }
+      }
+    }
+  ],
+  "Incursiones 5": [
+    {
+      "name": "Solgaleo",
+      "canBeShiny": false,
+      "image": "pm791.icon.png",
+      "types": [
+        "psychic.png",
+        "steel.png"
+      ],
+      "boostedWeather": [
+        "windy.png",
+        "snowy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 2219,
+          "max": 2310
+        },
+        "boosted": {
+          "min": 2774,
+          "max": 2887
+        }
+      }
+    }
+  ],
+  "Mega Incursiones": [
+    {
+      "name": "Mega Charizard X",
+      "canBeShiny": true,
+      "image": "pokemon_icon_006_51.png",
+      "types": [
+        "fire.png",
+        "dragon.png"
+      ],
+      "boostedWeather": [
+        "sunny.png",
+        "windy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1574,
+          "max": 1651
+        },
+        "boosted": {
+          "min": 1968,
+          "max": 2064
+        }
+      }
+    }
+  ],
+  "Incursiones Oscuras Nivel 1": [
+    {
+      "name": "Magnemite",
+      "canBeShiny": true,
+      "image": "pm81.icon.png",
+      "types": [
+        "electric.png",
+        "steel.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Cyndaquil",
+      "canBeShiny": false,
+      "image": "pm155.icon.png",
+      "types": [
+        "fire.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Murkrow",
+      "canBeShiny": true,
+      "image": "pm198.icon.png",
+      "types": [
+        "dark.png",
+        "flying.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Spoink",
+      "canBeShiny": false,
+      "image": "pm325.icon.png",
+      "types": [
+        "psychic.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    }
+  ],
+  "Incursiones Oscuras Nivel 3": [
+    {
+      "name": "Lapras",
+      "canBeShiny": false,
+      "image": "pm131.icon.png",
+      "types": [
+        "water.png",
+        "ice.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Piloswine",
+      "canBeShiny": false,
+      "image": "pm221.icon.png",
+      "types": [
+        "ice.png",
+        "ground.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Gurdurr",
+      "canBeShiny": false,
+      "image": "pm533.icon.png",
+      "types": [
+        "fighting.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    }
+  ],
+  "Incursiones Oscuras Nivel 5": [
+    {
+      "name": "Registeel",
+      "canBeShiny": false,
+      "image": "pm379.icon.png",
+      "types": [
+        "steel.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    }
+  ]
+}
