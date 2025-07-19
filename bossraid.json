@@ -1,0 +1,419 @@
+{
+  "Incursiones 1": [
+    {
+      "name": "Shellder",
+      "canBeShiny": true,
+      "image": "pm90.icon.png",
+      "types": [
+        "water.png"
+      ],
+      "boostedWeather": [
+        "rainy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 571,
+          "max": 617
+        },
+        "boosted": {
+          "min": 713,
+          "max": 771
+        }
+      }
+    },
+    {
+      "name": "Ducklett",
+      "canBeShiny": true,
+      "image": "pm580.icon.png",
+      "types": [
+        "water.png",
+        "flying.png"
+      ],
+      "boostedWeather": [
+        "rainy.png",
+        "windy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 447,
+          "max": 489
+        },
+        "boosted": {
+          "min": 559,
+          "max": 612
+        }
+      }
+    },
+    {
+      "name": "Tatsugiri (Curly)",
+      "canBeShiny": false,
+      "image": "pm978.fCURLY.icon.png",
+      "types": [
+        "dragon.png",
+        "water.png"
+      ],
+      "boostedWeather": [
+        "windy.png",
+        "rainy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1494,
+          "max": 1569
+        },
+        "boosted": {
+          "min": 1868,
+          "max": 1962
+        }
+      }
+    },
+    {
+      "name": "Tatsugiri (Droopy)",
+      "canBeShiny": false,
+      "image": "pm978.fDROOPY.icon.png",
+      "types": [
+        "dragon.png",
+        "water.png"
+      ],
+      "boostedWeather": [
+        "windy.png",
+        "rainy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1494,
+          "max": 1569
+        },
+        "boosted": {
+          "min": 1868,
+          "max": 1962
+        }
+      }
+    },
+    {
+      "name": "Tatsugiri (Stretchy)",
+      "canBeShiny": false,
+      "image": "pm978.fSTRETCHY.icon.png",
+      "types": [
+        "dragon.png",
+        "water.png"
+      ],
+      "boostedWeather": [
+        "windy.png",
+        "rainy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1494,
+          "max": 1569
+        },
+        "boosted": {
+          "min": 1868,
+          "max": 1962
+        }
+      }
+    }
+  ],
+  "Incursiones 3": [
+    {
+      "name": "Kingler",
+      "canBeShiny": false,
+      "image": "pm99.icon.png",
+      "types": [
+        "water.png"
+      ],
+      "boostedWeather": [
+        "rainy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1540,
+          "max": 1616
+        },
+        "boosted": {
+          "min": 1925,
+          "max": 2020
+        }
+      }
+    },
+    {
+      "name": "Gyarados",
+      "canBeShiny": true,
+      "image": "pm130.icon.png",
+      "types": [
+        "water.png",
+        "flying.png"
+      ],
+      "boostedWeather": [
+        "rainy.png",
+        "windy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1855,
+          "max": 1937
+        },
+        "boosted": {
+          "min": 2319,
+          "max": 2422
+        }
+      }
+    },
+    {
+      "name": "Lapras",
+      "canBeShiny": true,
+      "image": "pm131.fCOSTUME_2020.icon.png",
+      "types": [
+        "water.png",
+        "ice.png"
+      ],
+      "boostedWeather": [
+        "rainy.png",
+        "snowy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1435,
+          "max": 1509
+        },
+        "boosted": {
+          "min": 1794,
+          "max": 1886
+        }
+      }
+    },
+    {
+      "name": "Azumarill",
+      "canBeShiny": false,
+      "image": "pm184.icon.png",
+      "types": [
+        "water.png",
+        "fairy.png"
+      ],
+      "boostedWeather": [
+        "rainy.png",
+        "cloudy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 849,
+          "max": 907
+        },
+        "boosted": {
+          "min": 1061,
+          "max": 1134
+        }
+      }
+    }
+  ],
+  "Incursiones 5": [
+    {
+      "name": "Terrakion",
+      "canBeShiny": true,
+      "image": "pm639.icon.png",
+      "types": [
+        "rock.png",
+        "fighting.png"
+      ],
+      "boostedWeather": [
+        "partlycloudy.png",
+        "cloudy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 2026,
+          "max": 2113
+        },
+        "boosted": {
+          "min": 2533,
+          "max": 2641
+        }
+      }
+    }
+  ],
+  "Mega Incursiones": [
+    {
+      "name": "Mega Blastoise",
+      "canBeShiny": true,
+      "image": "pm9.fMEGA.icon.png",
+      "types": [
+        "water.png"
+      ],
+      "boostedWeather": [
+        "rainy.png"
+      ],
+      "combatPower": {
+        "normal": {
+          "min": 1338,
+          "max": 1409
+        },
+        "boosted": {
+          "min": 1673,
+          "max": 1761
+        }
+      }
+    }
+  ],
+  "Incursiones Oscuras Nivel 1": [
+    {
+      "name": "Magnemite",
+      "canBeShiny": true,
+      "image": "pm81.icon.png",
+      "types": [
+        "electric.png",
+        "steel.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Cyndaquil",
+      "canBeShiny": false,
+      "image": "pm155.icon.png",
+      "types": [
+        "fire.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Murkrow",
+      "canBeShiny": true,
+      "image": "pm198.icon.png",
+      "types": [
+        "dark.png",
+        "flying.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Spoink",
+      "canBeShiny": false,
+      "image": "pm325.icon.png",
+      "types": [
+        "psychic.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    }
+  ],
+  "Incursiones Oscuras Nivel 3": [
+    {
+      "name": "Lapras",
+      "canBeShiny": false,
+      "image": "pm131.icon.png",
+      "types": [
+        "water.png",
+        "ice.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Piloswine",
+      "canBeShiny": false,
+      "image": "pm221.icon.png",
+      "types": [
+        "ice.png",
+        "ground.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    },
+    {
+      "name": "Gurdurr",
+      "canBeShiny": false,
+      "image": "pm533.icon.png",
+      "types": [
+        "fighting.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    }
+  ],
+  "Incursiones Oscuras Nivel 5": [
+    {
+      "name": "Registeel",
+      "canBeShiny": false,
+      "image": "pm379.icon.png",
+      "types": [
+        "steel.png"
+      ],
+      "boostedWeather": [],
+      "combatPower": {
+        "normal": {
+          "min": -1,
+          "max": -1
+        },
+        "boosted": {
+          "min": -1,
+          "max": -1
+        }
+      }
+    }
+  ]
+}
